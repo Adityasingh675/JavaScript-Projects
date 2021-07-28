@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="indx.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <h1 id="title", class="title">Connect With Me</h1>
+        <form id="forms", name="Myform">
+            <div id="text_fields", class="text_fields">
+                <label for = "first_name", class="titles">First Name:</label></br>
+                <input autocomplete="off", class="input_field", id="first_name", type="text", name="f_name", placeholder="Enter First Name"></br>
+                <div id="fn_error"></div>
+
+                <label for = "last_name", class="titles"> Last Name:</label></br>
+                <input autocomplete="off", class="input_field", id="last_name", type="text", name="l_name", placeholder="Enter Last Name"></br>
+                <div id="ln_error"></div>
+
+                <label for = "contact", class="titles"> Contact No:</label></br>
+                <input autocomplete="off", class="input_field", id="contact", type="number" name="cont_num", placeholder="Enter mobile no."></br>
+                <div id="contact_error"></div>
+
+                <label for = "dob", class="titles"> Date Of Birth:</label></br>
+                <input autocomplete="off", class="input_field", id="dob", type= "date", name="dob", placeholder="Enter DOB"></br>
+                <div id="dob_error"></div>
+
+                <label for = "email", class="titles"> Email Id:</label></br>
+                <input autocomplete="off", class="input_field", id="email", type="email" name="email", placeholder="Enter Mail Id"></br>
+                <div id="email_error"></div>
+
+                <label for = "address", class="titles"> Address:</label></br>
+                <input autocomplete="off", class="input_field", id="address", type="text" name="address", placeholder="Enter Address"></br>
+                <div id="address_error"></div>
+
+                <!-- <label for = "choose", class="titles"> Purpose of Contact:</label></br>
+
+                <input autocomplete="off", type="checkbox", id="check1", name="check1"> 
+                <label class="checkbox_items">Job</label>
+                <input autocomplete="off", type="checkbox", id="check2", name="check2">
+                <label class="checkbox_items">Funding</label>  -->
+                
+            </div></br>
+
+            </div>
+            <div id="drop_down", class="drop_down">
+                <label for="country", class="titles">Choose Country:</label><br>
+                <select autocomplete= "off", name="country", id="country", class="country">
+                    <optgroup label="Asia">
+                        <option value="">Choose Country</option>
+                        <option value="India">India<selected/option>
+                        <option value="China">China</option>
+                        <option value="Dubai">Dubai</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Thailand">Thailand</option>
+                    </optgroup>
+                    <optgroup label="North America">
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Mexico">Mexico</option>
+                    </optgroup>
+                    <optgroup label="South America">
+                        <option value="Brazil">Brazil</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Peru">Peru</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option value="Germany">Germany</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="France">France</option>
+                        <option value="Switzerland">Switzerland</option>
+                    </optgroup>
+                    <optgroup label="Oceania">
+                        <option value="Australia">Australia</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Papua New Guinea">Papua New Guinea</option>
+                        <option value="Fiji">Fiji</option>
+                    </optgroup>
+                </select>
+                <div id="country_error"></div>    
+            </div>
+            <div>
+                <label for = "remarks", class="titles"> Remarks:</label></br>
+                <textarea autocomplete="off", class="input_field", id="remarks", placeholder="Give remarks if any."></textarea>
+            </div>
+            <div id="button_sum", class="button_sum">
+                <button type="button", onclick="showMessage();">Let's Connect</button>
+            </div>
+            <!-- <div id="button_min", class="button_min">
+                <button type="button", onclick="reset();">Reset Form</button>
+            </div> -->
+            <div>
+                <h2 id="ent_details"></h2>
+                <p id="data_retrieval"></p>
+                <p id="data"></p>
+                <p id="data2"></p>
+                <p id="data3"></p>
+                <p id="data4"></p>
+                <p id="data8"></p>
+                <p id="data5"></p>
+                <p id="data6"></p>
+                <p id="data7"></p>
+                <p id="data9"></p>
+            </div>
+        </form>
+    </body>
+</html>

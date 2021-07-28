@@ -1,0 +1,312 @@
+
+body{
+    /* background-image: linear-gradient(to right, blue, white); */
+    background-image: url(./yonan-farah-8K0VEnhPv3M-unsplash.jpg);
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+    max-width: 60%;
+}
+
+@media screen and (min-width: 360px){
+    .text_fields, .drop_down, .button_sum, .button_min {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* #text_fields label{
+    font-size: 20px;
+    text-align: start;
+    margin-left: 30%;
+} */
+
+.titles{
+    font-size: 22px;
+    margin-left: 30%;
+    /* padding-bottom: 70px; */
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#title{
+    font-size:xx-large;
+    margin-bottom: 30px;
+    margin-left: 7%;
+}
+
+/* .titles{
+    align-content: flex-start;
+} */
+
+.input_field{
+    margin-left: 30%;
+}
+
+input[type=text] {
+    size: 10px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: black; 
+}
+
+input[type=number] {
+    width: 400px;
+    height: 30px;
+    /* height: 30px; */
+    border-color: black;
+    border-radius: 5px;
+}
+
+input[type=email] {
+    width: 400px;
+    /* height: 20px; */
+    height: 30px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+input[type=date] {
+    width: 400px;
+    /* height: 20px; */
+    height: 35px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#country{
+    width: 407px;
+    height: 35px;
+    margin-left: 30%;
+    /* margin-top: 20px; */
+    /* margin-left: 10px; */
+}
+
+#text_fields{
+    /* margin-left: 650px; */
+    color: white;
+}
+#button_sum{
+    /* margin-left: 650px; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    margin-left: 47%;
+}
+#button_min{
+    /* margin-left: 650px; */
+    /* margin-top: 20px; */
+    margin-bottom: 50px;
+    margin-left: 46.5%;
+}
+#drop_down{
+    /* margin-left: 650px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#remarks{
+    padding: 50px;
+    width: 305px;
+    /* margin-left: 660px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+/* #text_fields label{
+    align-content: initial;
+} */
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: grey;
+    /* margin-right: 500px; */
+    /* box-shadow: 5px 3px 10px; */
+}
+
+button:hover{
+    background-color:white;
+}
+
+#button_sum{
+    margin-top: 0px;
+    /* margin-left: 660px; */
+} 
+
+#forms{
+    /* text-align: center; */
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#check1{
+    margin-left: 30%;
+}
+
+#check2{
+    margin-left: 265px;
+}
+
+
+/* p{
+    margin-left: 30%;
+    width: 100px;
+} */
+
+
+
+/* #check{
+    margin-left: 10%;
+} */
+
+/* #item1{
+    margin: 10px;
+} */
+
+
+.checkbox_items{
+    font-size: 22px;
+}
+
+/* #select{
+    display: flex;
+} */
+
+#data_retrieval{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data2{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data3{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data4{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data5{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data6{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data7{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data8{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#data9{
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#ent_details{
+    font-size: 30px;
+    margin-left: 35%;
+}
+/* @media screen and (min-width: 200px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    } */
+
+
+#fn_error{
+    height: 15px;
+    width: 300px;
+    /* background-color: white; */
+    margin-left: 30%;
+    color: red;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+#ln_error{
+    height: 15px;
+    width: 300px;
+    /* background-color: white; */
+    margin-left: 30%;
+    color: red;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+#contact_error{
+    height: 15px;
+    width: 300px;
+    /* background-color: white; */
+    margin-left: 30%;
+    color: red;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+#dob_error{
+    height: 15px;
+    width: 300px;
+    /* background-color: white; */
+    margin-left: 30%;
+    color: red;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+#email_error{
+    height: 15px;
+    width: 300px;
+    /* background-color: white; */
+    margin-left: 30%;
+    color: red;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+#address_error{
+    height: 15px;
+    width: 300px;
+    /* background-color: white; */
+    margin-left: 30%;
+    color: red;
+    font-size: large;
+    /* margin-bottom: 10px; */
+}
+
+#country_error{
+    height: 15px;
+    width: 300px;
+    /* background-color: white; */
+    margin-left: 30%;
+    color: red;
+    font-size: large;
+    /* margin-bottom: 10px; */
+}
